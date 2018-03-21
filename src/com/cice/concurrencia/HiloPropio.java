@@ -8,7 +8,7 @@ public class HiloPropio extends Thread {
         super.run();
         Long contador= 0L;
         while (true){
-            System.out.println(++contador + ":segundos");
+            System.out.println(++contador + ":Hilo segundos");
             try{
                 Thread.sleep(1000L);
             }catch(InterruptedException e){

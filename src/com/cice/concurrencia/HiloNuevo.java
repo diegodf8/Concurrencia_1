@@ -8,7 +8,7 @@ public class HiloNuevo extends Thread {
         Long contador= 0L;
         while (true){
             contador+=300;
-            System.out.println(contador + ":milisegundos");
+            System.out.println(contador + ":Hilo Nuevo milisegundos");
             try{
                 Thread.sleep(300L);
             }catch(InterruptedException e){
