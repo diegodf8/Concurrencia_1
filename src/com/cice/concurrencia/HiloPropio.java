@@ -10,7 +10,7 @@ public class HiloPropio extends Thread {
         while (true){
             System.out.println(++contador + ":Hilo segundos");
             try{
-                Thread.sleep(1000L);
+                Thread.sleep(5000L);
             }catch(InterruptedException e){
                 e.printStackTrace();
             }

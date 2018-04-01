@@ -7,10 +7,10 @@ public class HijoPrestado implements Runnable {
 
         Long contador= 0L;
         while (true){
-            contador+=550;
+            contador+=5000;
             System.out.println(contador + ":Hijo prestado milisegundos");
             try{
-                Thread.sleep(550L);
+                Thread.sleep(5000L);
             }catch(InterruptedException e){
                 e.printStackTrace();
             }
